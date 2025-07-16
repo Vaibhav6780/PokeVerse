@@ -1,4 +1,4 @@
-// CSS imports
+
 import { useState } from 'react';
 import PokemonList from '../PokemonList/PokemonList';
 import Search from '../Search/Search';
@@ -11,7 +11,7 @@ function Pokedex() {
 
     return (
         <div className='pokedex-wrapper'>
-            <h1>POKEDEX</h1>
+            <h1>POKEVERSE</h1>
             <Search updateSearchTerm={setSearchTerm} />
             {searchTerm ? <PokemonDetails pokemonName={searchTerm} /> : <PokemonList />}
         </div>

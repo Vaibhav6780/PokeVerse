@@ -1,4 +1,4 @@
-// CSS imports 
+ 
 import './PokemonList.css';
 
 import Pokemon from '../Pokemon/Pokemon';

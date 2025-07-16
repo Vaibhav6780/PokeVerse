@@ -1,9 +1,8 @@
-// CSS imports
+
 import './PokemonDetails.css';
 
 import { Link } from 'react-router-dom';
 
-// Custom Hook
 import usePokemon from '../../hooks/usePokemon';
 import Pokemon from '../Pokemon/Pokemon';
 
@@ -15,7 +14,7 @@ function PokemonDetails({ pokemonName }) {
         <>
         <h1 className='pokedex-redirect'>
             <Link to="/">
-                Pokedex
+                PokeVerse
             </Link>
         </h1>
         {pokemon && <div className='pokemon-details-wrapper'>
